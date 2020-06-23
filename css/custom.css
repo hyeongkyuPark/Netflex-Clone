@@ -36,10 +36,6 @@ header {
     text-indent: -9999px;
 }
 
-.header-box .logo a {
-    border: 1px solid red;
-}
-
 .header-box .login {
     position: absolute;
     width: 82px;
