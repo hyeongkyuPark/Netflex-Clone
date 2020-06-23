@@ -462,3 +462,176 @@ header {
     word-break: keep-all;
     margin-top: -8px;
 }
+
+@media all and (max-width:1250px) {
+
+    .email-wrap {
+        width: 90%;
+    }
+
+    .background-text>h3 {
+    font-size: 60px;
+}
+
+.background-text>h4 {
+    font-size: 20px;
+}
+
+.email-box>.email-wrap input {
+    font-size: 13px;
+}
+
+.email-box input:focus~label {
+    top: 10%;
+    font-size: 7px;
+}
+
+.email-btn a {
+    font-size: 23px;
+}
+
+.background-text>p {
+    font-size: 15px;
+    bottom: 60px;
+}
+.content1 .content-text {
+    width: 40%;
+    left: 50px;
+}
+.content1 .content-img {
+    right: 50px;
+    width: 400px;
+    height: 300px;
+}
+
+.content1 .content-img video {
+    position: absolute;
+    width: 285px;
+    top: 63px;
+    left: 57px;
+}
+
+.content1 .content-text h3 {
+    font-size: 40px;
+}
+
+.content1 .content-text p {
+    font-size: 23px;
+}
+
+
+.content2 .content-text {
+    width: 40%;
+    right: 50px;
+}
+
+.content2 .content-text h3 {
+    font-size: 40px;
+}
+
+.content2 .content-text p {
+    font-size: 23px;
+}
+
+.content2 .content-img .img {
+    width: 450px;
+    height: 300px;
+}
+
+.content2 .content-img .download {
+    width: 300px;
+    height: 80px;
+}
+
+.download .download-img {
+    width: 45px;
+    height: 60px;
+}
+
+.download .download-gif {
+    width: 45px;
+    height: 65px;
+}
+
+.content3 .content-text {
+    width: 40%;
+    left: 50px;
+}
+
+.content3 .content-text>h3 {
+    width: 100%;
+    font-size: 40px;
+    word-break: keep-all;
+}
+
+.content3 .content-text>p {
+    font-size: 23px;
+}
+
+.content3 .content-img {
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    right: 50px;
+}
+
+.content3 .content-img .img {
+    position: absolute;
+    background: url('../images/device-pile.png');
+    width: 400px;
+    height: 300px;
+    background-size: cover;
+    z-index: 3;
+}
+
+.content3 video {
+    position: absolute;
+    width: 250px;
+    top: 40px;
+    left: 75px;
+    z-index: 2;
+}
+
+.qna-content h3 {
+    font-size: 40px;
+}
+
+.qna-content {
+    width: 700px;
+}
+
+.qna-content ul li {
+    width: 100%;
+    font-size: 20px;
+}
+
+
+.qna-content ul li i {
+    font-size: 27px;
+}
+
+.qna-content>p {
+    font-size: 13px;
+}
+
+.qna-content .email-box {
+    margin-top: 70px;
+    width: 100%;
+    
+}
+
+.qna-content .email-box .email-wrap {
+    width: 95%;
+}
+
+.items span {
+    display: none;
+    padding: 20px 30px;
+    font-size: 25px;
+    background: #303030;
+    line-height: 1.4em;
+    word-break: keep-all;
+    margin-top: -8px;
+}
+
+}
